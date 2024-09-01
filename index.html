@@ -29,7 +29,7 @@
                     Poppins: 'Poppins',
                 },
                 backgroundImage: {
-                    leaf: "url('./images/leaf01.png')",
+                    bannerBg: "url('./images/leaf01.png')",
                     call_to_action: "url('./images/call.jpg')",
                 },
             },
@@ -42,7 +42,7 @@
     <nav class="w-11/12 mx-auto">
         <div class="navbar px-0 py-2">
             <div class="navbar-start">
-              <a href="#" class=""><img class="w-3/6" src="./images/logo.svg" alt=""></a>
+              <a href="#" class=""><img class="w-1/2" src="./images/logo.svg" alt=""></a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1 text-lg font-medium">
@@ -80,6 +80,29 @@
             </div>
           </div>
     </nav>
+
+    <!-- banner -->
+     <section class=" bg-bannerBg bg-no-repeat bg-right-bottom">
+      <div class="w-full h-full bg-body bg-opacity-90">
+        <div class="lg:w-3/4 mx-auto py-28 flex sm:flex-row flex-col items-center">
+          <div class="flex-1 ">
+            <img src="./images/bannerbg.png" alt="">
+          </div>
+          <div class="flex-1 sm:text-left text-center">
+            <h4 class="text-xl font-semibold my-5">Best Quality Products</h4>
+            <h1 class="text-4xl lg:text-6xl font-semibold leading-tight">Join The Organic Movement!</h1>
+            <p class="my-5 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, repellendus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, eaque.
+            </p>
+            <div>
+              <button class=" bg-accent text-white px-10 py-4 rounded-lg hover:bg-primary font-semibold ">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Shop Now</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
    </header>
 </body>
 </html>
